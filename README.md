@@ -100,6 +100,7 @@ These files are ready to be uploaded to any PCB manufacturer (JLCPCB, PCBWay, OS
 
 ## Use Cases
 
+- Meshtastic mesh network
 - Remote environmental monitoring (temperature, pressure)
 - LoRa-based sensor networks with Ethernet gateway
 - Industrial IoT data collection nodes
