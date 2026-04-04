@@ -2,6 +2,20 @@
 
 A custom PCB carrier board that integrates a **Raspberry Pi Pico 2**, **W5500 Ethernet module**, and **Ebyte E22 LoRa module** into a single compact design for Meshtastic applications.
 
+## License
+
+This project is licensed under the [GNU General Public License v2.0](LICENSE).
+
+## Author
+
+**cvaldess** — [cvaldess@cvaldess.com](mailto:cvaldess@cvaldess.com)
+
+## Web Site
+
+**https://meshtastic.cvaldess.com** - [meshtastic.cvaldess.com](https://meshtastic.cvaldess.com)
+
+## PCB
+
 ![2D PCB Layout](2D_Pico2_W5500_E22.png)
 
 ## Features
@@ -105,15 +119,3 @@ These files are ready to be uploaded to any PCB manufacturer (JLCPCB, PCBWay, OS
 - LoRa-based sensor networks with Ethernet gateway
 - Industrial IoT data collection nodes
 - Weather station with wired and wireless connectivity
-
-## License
-
-This project is licensed under the [GNU General Public License v2.0](LICENSE).
-
-## Author
-
-**cvaldess** — [cvaldess@cvaldess.com](mailto:cvaldess@cvaldess.com)
-
-## Web Site
-
-**https://meshtastic.cvaldess.com** - [meshtastic.cvaldess.com](https://meshtastic.cvaldess.com)
