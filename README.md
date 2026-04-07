@@ -41,7 +41,7 @@ The full schematic is available as an SVG file:
 
 | Component | Description | Quantity |
 |-----------|-------------|:--------:|
-| [Raspberry Pi Pico 2](https://s.click.aliexpress.com/e/_c3U7kirP) | RP2350 microcontroller board | 1 |
+| [Raspberry Pi Pico 2](https://s.click.aliexpress.com/e/_c3U7kirP){:target="_blank"} | RP2350 microcontroller board | 1 |
 | [USR-ES1 W5500](https://s.click.aliexpress.com/e/_c4eyUbRF) | SPI Ethernet module | 1 |
 | [Ebyte E22-900M30S](https://s.click.aliexpress.com/e/_c3ABeS7X) | SX1262 Wireless Transceiver LoRa Module (30 dBm) | 1 |
 | [BMP280 module](https://s.click.aliexpress.com/e/_c3lamruN) | I2C temperature & pressure sensor | 1 |
