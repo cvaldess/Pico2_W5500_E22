@@ -37,6 +37,18 @@ The full schematic is available as an SVG file:
 
 - [SCH_Schematic-Pico2_W5500_E22.svg](SCH_Schematic-Pico2_W5500_E22.svg)
 
+## Bill of Materials
+
+| Component | Description | Quantity |
+|-----------|-------------|:--------:|
+| [Raspberry Pi Pico 2](https://s.click.aliexpress.com/e/_c3U7kirP) | RP2350 microcontroller board | 1 |
+| [USR-ES1 W5500](https://s.click.aliexpress.com/e/_c4eyUbRF) | SPI Ethernet module | 1 |
+| [Ebyte E22-900M30S](https://s.click.aliexpress.com/e/_c3ABeS7X) | SX1262 Wireless Transceiver LoRa Module (30 dBm) | 1 |
+| [BMP280 module](https://s.click.aliexpress.com/e/_c3lamruN) | I2C temperature & pressure sensor | 1 |
+| [C1 — 100µF](https://s.click.aliexpress.com/e/_c2I8FhOZ) | Ceramic capacitor | 1 |
+| [C2 — 10µF] (https://s.click.aliexpress.com/e/_c2I8FhOZ) | Ceramic capacitor | 1 |
+| Pin headers | 2.54 mm male/female headers | As needed |
+
 ## Pin Mapping
 
 ### W5500 Ethernet (SPI)
@@ -95,18 +107,6 @@ Gerber files for PCB fabrication are included:
 - [Gerber_Pico2_W5500_E22.zip](Gerber_Pico2_W5500_E22.zip)
 
 These files are ready to be uploaded to any PCB manufacturer (JLCPCB, PCBWay, OSH Park, etc.).
-
-## Bill of Materials
-
-| Component | Description | Quantity |
-|-----------|-------------|:--------:|
-| Raspberry Pi Pico 2 | RP2350 microcontroller board | 1 |
-| USR-ES1 (W5500 Lite) | SPI Ethernet module | 1 |
-| Ebyte E22-900M30S | SX1262 Wireless Transceiver LoRa Module (30 dBm) | 1 |
-| BMP280 module | I2C temperature & pressure sensor | 1 |
-| C1 — 100 µF | Ceramic capacitor | 1 |
-| C2 — 10 µF | Ceramic capacitor | 1 |
-| Pin headers | 2.54 mm male/female headers | As needed |
 
 ## Use Cases
 
