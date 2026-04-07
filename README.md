@@ -47,7 +47,7 @@ The full schematic is available as an SVG file:
 | [BMP280 module](https://s.click.aliexpress.com/e/_c3lamruN) | I2C temperature & pressure sensor | 1 |
 | [C1 — 100µF](https://s.click.aliexpress.com/e/_c2I8FhOZ) | Ceramic capacitor | 1 |
 | [C2 — 10µF](https://s.click.aliexpress.com/e/_c2I8FhOZ) | Ceramic capacitor | 1 |
-| Pin headers | 2.54 mm male/female headers | As needed |
+| [Pin headers](https://s.click.aliexpress.com/e/_c3xaLyyp) | 2.54 mm male/female headers | As needed |
 
 ## Pin Mapping
 
