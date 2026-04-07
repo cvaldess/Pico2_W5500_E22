@@ -108,7 +108,7 @@ These files are ready to be uploaded to any PCB manufacturer (JLCPCB, PCBWay, OS
 | USR-ES1 (W5500 Lite) | SPI Ethernet module | 1 |
 | Ebyte E22-900M30S | SX1262 Wireless Transceiver LoRa Module (30 dBm) | 1 |
 | BMP280 module | I2C temperature & pressure sensor | 1 |
-| C1 — 100 µF | Electrolytic capacitor | 1 |
+| C1 — 100 µF | Ceramic capacitor | 1 |
 | C2 — 10 µF | Ceramic capacitor | 1 |
 | Pin headers | 2.54 mm male/female headers | As needed |
 
