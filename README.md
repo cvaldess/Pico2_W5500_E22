@@ -8,7 +8,7 @@ This project is licensed under the [GNU General Public License v2.0](LICENSE).
 
 ## Author
 
-**cvaldess** — [cvaldess@cvaldess.com](mailto:cvaldess@cvaldess.com) - [meshtastic.cvaldess.com](https://meshtastic.cvaldess.com)
+**@cvaldess** — [cvaldess@cvaldess.com](mailto:cvaldess@cvaldess.com) - [meshtastic.cvaldess.com](https://meshtastic.cvaldess.com)
 
 ## PCB
 
