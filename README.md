@@ -14,6 +14,8 @@ This project is licensed under the [GNU General Public License v2.0](LICENSE).
 
 ![2D PCB Layout](2D_Pico2_W5500_E22.png)
 
+[JLCPCB](https://jlcpcb.com/?from=MJCHJNNSFFPCJAEEP)
+
 ## Features
 
 - **Raspberry Pi Pico 2** — RP2350-based microcontroller with dual-core Arm Cortex-M33 / RISC-V
