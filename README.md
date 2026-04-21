@@ -29,9 +29,9 @@ This project is licensed under the [GNU General Public License v2.0](LICENSE).
 
 ## Board Images
 
-| 2D Layout | 3D Render | Experimental |
+| 3D Render | Mounted | Node |
 |:---------:|:---------:|:---------:|
-| ![2D](2D_Pico2_W5500_E22.png) | ![3D](3D_Pico2_W5500_E22.png) | ![First Experiment](Pico2_W5500_E22-exp.jpeg) |
+| ![3D](3D_Pico2_W5500_E22.png) | ![Mounted](Pico2_w5500_E22.jpeg) | ![Node](Pico2_5500_E22-Node.jpeg) |
 
 ## Schematic
 
