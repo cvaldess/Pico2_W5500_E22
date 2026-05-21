@@ -4,7 +4,6 @@ A custom PCB carrier board that integrates a **Raspberry Pi Pico 2**, **W5500 Et
 
 [Pull Requests on Course](https://github.com/meshtastic/firmware/pull/10135)
 
-> The PCB design is currently in a testing phase. We share it as an open project, but we are not responsible for any outcome if you decide to reproduce it. Use it at your own risk — and enjoy the process!
 ## License
 
 This project is licensed under the [GNU General Public License v2.0](LICENSE).
