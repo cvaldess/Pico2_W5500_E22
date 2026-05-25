@@ -2,8 +2,6 @@
 
 A custom PCB carrier board that integrates a **Raspberry Pi Pico 2**, **W5500 Ethernet module**, and **Ebyte E22 LoRa module** into a single compact design for Meshtastic applications and Low cost Ethernet MQTT Gateway. 
 
-[Pull Requests on Course](https://github.com/meshtastic/firmware/pull/10135)
-
 ## License
 
 This project is licensed under the [GNU General Public License v2.0](LICENSE).
