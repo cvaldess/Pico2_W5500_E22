@@ -115,21 +115,22 @@ Gerber files for PCB fabrication are included:
 These files are ready to be uploaded to any PCB manufacturer (JLCPCB, PCBWay, OSH Park, etc.).
 ## Firmware
 
-Pre-built Meshtastic firmware (v2.8.0.a0f23c4) for the Pico2 + W5500 + E22 hardware. Choose your installation method:
+Pre-built Meshtastic firmware (v2.8.0.4f256e6) for the Pico2 + W5500 + E22 hardware, this version include "Use with client.meshtastic.org" feature, Choose your installation method:
 
 ### Method 1: Direct USB flash (UF2)
 Hold the BOOTSEL button while connecting the Pico2 via USB, then drag-and-drop the UF2 file onto the RPI-RP2 drive that appears.
 
-- [Download .uf2 file](https://meshfiles.cvaldess.com/firmware-pico2_w5500_e22-2.8.0.a0f23c4.uf2)
+- [Download .uf2 file](https://meshfiles.cvaldess.com/firmware-pico2_w5500_e22-2.8.0.4f256e6.uf2)
 
 ### Method 2: Ethernet OTA utility
 Update an already-deployed node over the network using the [Ethernet OTA utility](https://github.com/meshtastic/firmware/pull/10136). Download the BIN file and upload it through the utility.
 
-- [Download .bin file](https://meshfiles.cvaldess.com/firmware-pico2_w5500_e22-2.8.0.a0f23c4.bin)
+- [Download .bin file](https://meshfiles.cvaldess.com/firmware-pico2_w5500_e22-2.8.0.4f256e6.bin)
 
 ## Use Cases
 
 - Meshtastic mesh network
+- Low cost MQTT Gateway
 - Remote environmental monitoring (temperature, pressure)
 - LoRa-based sensor networks with Ethernet gateway
 - Industrial IoT data collection nodes
