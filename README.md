@@ -127,6 +127,11 @@ Update an already-deployed node over the network using the [Ethernet OTA utility
 
 - [Download .bin file](https://meshfiles.cvaldess.com/firmware-pico2_w5500_e22-2.8.0.4f256e6.bin)
 
+### Method 3:
+In our Client Area you can easy Flah it and Configure, also can protect your image with custom PSK.
+
+ - [Client Area](https://clientarea.cvaldess.com/)
+
 ## Use Cases
 
 - Meshtastic mesh network
