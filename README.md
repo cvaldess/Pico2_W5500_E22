@@ -147,6 +147,20 @@ In our Client Area you can easy Flah it and Configure, also can protect your ima
 
  - [Client Area](https://clientarea.cvaldess.com/)
 
+## CA2RXU LoRa APRS iGate/Digipeater firmware
+
+Pre-built CA2RXU LoRa APRS iGate/Digipeater firmware for the Pico2 + E22P-433M30S hardware
+
+### Method 1: Direct USB flash (UF2)
+Hold the BOOTSEL button while connecting the board via USB, then drag-and-drop the UF2 file onto the RP2350 drive that appears.
+
+ - [Download .bin file](https://meshfiles.cvaldess.com/igate-pico2_w5500_e22-1009.bin)
+
+ ### Method 2: Ethernet OTA utility
+Update an already-deployed node over the network using the node Web OTA.
+
+ - [Download .uf2 file](https://meshfiles.cvaldess.com/igate-pico2_w5500_e22-1009.uf2)
+
 ## Use Cases
 
 - Meshtastic mesh network
