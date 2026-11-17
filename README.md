@@ -149,22 +149,44 @@ In our Client Area you can easy Flah it and Configure, also can protect your ima
 
 ## CA2RXU LoRa APRS iGate/Digipeater firmware
 
-Pre-built CA2RXU LoRa APRS iGate/Digipeater firmware for the Pico2 + E22P-433M30S hardware
+Since November 2026 this board is supported by the official
+[CA2RXU LoRa APRS iGate/Digipeater](https://github.com/richonguzman/LoRa_APRS_iGate) firmware (RP2350 + Ethernet port, merged in
+[richonguzman/LoRa_APRS_iGate#438](https://github.com/richonguzman/LoRa_APRS_iGate/pull/438)), env `pico2_w5500_e22`.
+Fit a 433 MHz E22 / E22P module: LoRa APRS runs on 433.775 MHz.
+
+The images below are built from the official repository (`main` at `a9cf1a1`, 17 Nov 2026).
+From the next iGate release on, the same board also comes as a zip in its [Releases](https://github.com/richonguzman/LoRa_APRS_iGate/releases).
 
 ### Method 1: Direct USB flash (UF2)
 Hold the BOOTSEL button while connecting the board via USB, then drag-and-drop the UF2 file onto the RP2350 drive that appears.
 
- - [Download .bin file](https://meshfiles.cvaldess.com/igate-pico2_w5500_e22-1009.bin)
+ - [Download .uf2 file](https://meshfiles.cvaldess.com/igate-pico2_w5500_e22-1117.uf2)
 
- ### Method 2: Ethernet OTA utility
-Update an already-deployed node over the network using the node Web OTA.
+### Method 2: Ethernet OTA
+Update an already-deployed iGate over the network from its web page.
 
- - [Download .uf2 file](https://meshfiles.cvaldess.com/igate-pico2_w5500_e22-1009.uf2)
+ - [Download .bin file](https://meshfiles.cvaldess.com/igate-pico2_w5500_e22-1117.bin)
+
+### First boot
+The board gets its address by DHCP. Open `http://<board-ip>/` (look the address up in your router)
+to set the callsign, the APRS-IS passcode and the rest of the configuration.
+
+### What it does on this board
+- Receive-only iGate (RF to APRS-IS, `qAO`), position beacon over RF and APRS-IS, T# telemetry.
+- Digipeater (WIDEn-N) and backup digipeater while APRS-IS is down; channel check (CAD) before every transmission.
+- The same web page as the ESP32 boards, with the live stations map and network OTA; KISS TNC server
+  (TCP 8001), MQTT, remote syslog, SNTP, DHCP or static IP.
+- Not available: gating APRS-IS messages and objects back to RF, and the CrossFreq digipeater.
+
+The firmware expects the E22's TXEN driven by DIO2 (the default). With TXEN wired to GP6 instead,
+build it yourself from the iGate repository with `-D RADIO_TXEN=6` added to the env's `build_flags`
+(`pio run -e pico2_w5500_e22`).
 
 ## Use Cases
 
 - Meshtastic mesh network
 - Low cost MQTT Gateway
+- APRS iGate/Digipeater
 - Remote environmental monitoring (temperature, pressure)
 - LoRa-based sensor networks with Ethernet gateway
 - Industrial IoT data collection nodes
